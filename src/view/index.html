@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Pembayaran</title>
+    <link rel="stylesheet" href="../../dist/output.css">
+</head>
+<style>
+    *{
+        border: 1px solid red;
+    }
+</style>
+
+<body class="min-h-screen font-sans bg-slate-900">
+    <!-- navbar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 shadow-lg bg-slate-800 bg-opacity-80 backdrop-blur-md">
+        <div class="container flex items-center justify-between px-4 py-3 mx-auto">
+            <div class="flex items-center space-x-4">
+                <img src="" alt="Logo" class="w-10 h-10 bg-white rounded-full animate-spin-slow">
+                <span class="text-xl font-bold text-white">PayEase</span>
+            </div>
+            <ul class="flex items-center space-x-6">
+                <li><a href="#" class="text-white transition duration-300 hover:text-red-400 hover:underline">Beranda</a></li>
+                <li><a href="#" class="text-white transition duration-300 hover:text-red-400 hover:underline">Tentang Kami</a></li>
+                <li><a href="#" class="text-white transition duration-300 hover:text-red-400 hover:underline">Pelayanan</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- main area  -->
+    <!-- main area -> display -->
+    <div class="relative h-screen">
+        <img src="../assets/img/background.jpg" alt="Background" class="absolute inset-0 object-cover object-center w-full h-full filter brightness-50">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/40">
+            <div class="relative z-10 flex items-center justify-center h-full px-4 overflow-y-auto">
+                <div class="max-w-3xl mx-auto text-center">
+                    <h1 class="mb-4 text-5xl font-bold text-white md:text-6xl animate-fade-in-down">Mau Bayar Tagihan?</h1>
+                    <h3 class="mb-6 text-2xl font-bold text-red-300 md:text-3xl animate-fade-in-up">Bayar aja disini</h3>
+                    <p class="mb-8 text-xl text-gray-300 animate-fade-in">Proses pembayaran yang cepat dan efisien, memungkinkan Anda menyelesaikan transaksi dalam sekejap.</p>
+                    <a href="#" class="inline-block px-8 py-3 font-bold transition duration-300 bg-red-400 rounded-full hover:bg-red-500 text-slate-900 animate-pulse hover:animate-none hover:shadow-lg hover:shadow-red-500/50">Bayar Sekarang</a>
+                    
+                </div>
+            </div>
+
+            <!-- main area -> profile -->
+            <div class="relative flex items-center justify-center h-full color rounded-t-[100px] -top-20 bg-gradient-to-b from-gray-900 to-black">
+                <div class="text-pink-300">Lain Lain Disini Bang</div>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
