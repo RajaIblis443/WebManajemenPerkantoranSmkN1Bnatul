@@ -3,6 +3,16 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      minWidth:{
+        '1/2':'50%',
+        '1/3':'33.3333%',
+        '1/4':'25%',
+      },
+      maxWidth:{
+        '1/2':'50%',
+        '1/3':'33.3333%',
+        '1/4':'25%',
+      },
       keyframes: {
         fadeInDown: {
           'from': { opacity: '0', transform: 'translateY(-20px)' },
